@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Monitoring Evaluasi</title>
+  <title>OKP</title>
   <link rel="stylesheet" href="styles.css">
   <!-- FontAwesome untuk icon -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   
   <!-- Favicons -->
-    <link href="assets/img/me.png" rel="icon">
+    <link href="assets/img/logo OKP.png" rel="icon">
 
 </head>
 <body>
@@ -61,96 +61,17 @@
   <div class="container2">
   <div id="content" style="display:none; text-align:center; padding: 280px;">
 
-    <h2 style="color:white;">Monitoring Evaluasi</h2>
+    <!-- <h2 style="color:white;">Operasional Kredit Program</h2> -->
     <div class="buttons">
-    <!-- <a href="monev.html" target="_blank" style=" margin:10px; color:white;">MONEV</a> -->
-
     <div class="dropdown">
-      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">MONEV</a>
+      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">HOME</a>
         <ul class="dropdown-menu" aria-labelledby="dropdownSaldo">
-        <li><a class="dropdown-item" href="monev.html" target="_blank">Home</a></li>
-        <li><a class="dropdown-item" href="" target="_blank" onclick="cekPassword(event)" >KPI Monev</a></li>
+        <li><a class="dropdown-item" href="okp.html" target="_blank">Home</a></li>
+        <li><a class="dropdown-item" href="" target="_blank" onclick="cekPassword(event)" >Employees</a></li>
+             </ul>
+      </div>
   
-             </ul>
-      </div>
-    <div class="dropdown">
-      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">QUADRAN</a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownSaldo">
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNDA3Yjk1ZmYtN2Y4ZC00YTUxLTkzYmItMGQwZmU1MjE2YmQ0IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Juni 2025</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZjYwM2QzYzAtYTQ5Zi00ZDRlLWFhYWUtNzk1NzU3NTRhYTUyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Juli 2025</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMWNiNGYyOGYtNDk3ZC00MjFmLTgzNTgtY2JiM2I0NDhlYTI0IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Agustus 2025</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiM2ZmZDFiYmUtZjBmOS00NDI0LWJhODgtZWE1MTE5MDMyNmZmIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">September 2025</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNzI0Y2UwNTktOTMzNy00M2VjLWIxNDYtYjU0NzFlYTY3MTFlIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Oktober 2025</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZDI2NzExZjMtYmU2Mi00OGMwLWEzMmUtYWJiMzllZmM5MDE0IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">November 2025</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYmU0MDM5YjktYmZmYS00ZGY5LThjMjItZjRhYTZhYWFmNmQ3IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Desember 2025</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMjIxNTIwZjYtYTc3My00ZGVkLTg1ZjUtNWUzNDRjMzk5YjYyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Januari 2026</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMDY4MzZkYzQtMzkxYy00OTMyLTk3ODAtYzA0OGNhZTkzMTRhIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Februari 2026</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZWFjYWNjOTgtOGFjNS00Mzc4LWIyOTQtZTcwNWI4ZWUzZjAyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Maret 2026</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZmIwYmQ5ZjktYTcyYS00MTZlLThiOTAtODQwMTA0OGUwZmUyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">April 2026</a></li> -->
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYzM4ZTgxMTAtZTllMi00YTEwLTgzNzEtYzViZGU2NjM2Y2QwIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Mei 2026</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNzA0OTc5NTktM2M5ZS00ZGEyLWI4NWMtOTkyMWExMzhlYTNjIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Juni 2026</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZmRhOThjYjUtYjliZi00NWI2LTljMzItODc4ZTc2M2UxOGY3IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Juli 2026</a></li>     
-      </ul>
-      </div>
-        
-    <!-- <a href="https://simfoni.pnm.co.id/login" target="_blank" style=" margin:10px; color:white;">SALDO MEKAAR & ULAMM</a> -->
-
-    <div class="dropdown">
-      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">Realisasi Pencairan Mekaar</a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownSaldo">
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMTZlMWQ2NjUtMTI1NS00YTIyLWFhMjQtZTY0OTlkNDc4MTVjIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Realiasasi Pencairan ODC</a></li>
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYTg4NDZiZWItMTY4Ny00ZmFhLTg5YmYtYzg4NTUxMzI1ODE2IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Realiasasi Pencairan Non ODC (15 Hari)</a></li> -->
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYTE3ZmMyMGUtMTcxOS00ZDRiLWI1NDUtNGMzZjY0YmUwYTM1IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Realiasasi Pencairan Non ODC (30 Hari)</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMjJjYzU3ZDMtZjU2NC00MDliLWJjMjItODRmYTgxNmQ4YzY1IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Hasil Konfirmasi DRTD VS Mekdi BO</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMTcyZTM4OWUtMzY4ZC00OGZhLWEzMDgtZjAxNGYxNTgyMzhiIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Pencairan di Luar hari PKM  </a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYjI5Mzc1MDMtYTZhNC00ZGE2LTg5ZmEtYWQ0MjZkODI2MjUzIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Monitoring Mapping Kartu ATM </a></li>
-      </ul>
-      </div>
-    
-      <div class="dropdown">
-      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">ULaMM</a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownSaldo">
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMGFiYjFiNDItYzU1ZS00NWE3LWIwYTMtMTQxNzUxMmUzZDNmIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Rekap TW Tahun 2024</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMjZkOTFjODktNDIzNy00OTM1LWE5ZGUtMjEyNWFkYjVlYmM2IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Rekap TW Tahun 2025</a></li> -->
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYTg1ZDc2YzYtYjlmNS00ODgyLThkOWMtZDExZDdkNmEyMzdhIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Bukti Setor ULaMM</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMzc2NDkwM2ItMjcxNC00ZmUzLWFhZGYtZjU0NGY5MDRmYmYyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Pencairan Nasabah</a></li>
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiOWMxZTZkZTgtOGMyMi00Y2NmLWI1OTItNDA2NGI5NDI2ZGM5IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Nominatif | PCS | SOA</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZjU5ZjhkZGItNzRkZS00NTU2LWFhZTktNGUxODdjODk2MDFhIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Dashboard PCS</a></li>     -->
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYjkwNjJlYzItNWU3MS00MWU2LWJiZTMtMGY4NDA0MjRmNWI1IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Penilaian Cabang</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZGRlNmIyMjItMDNjMS00YTA5LThjY2EtYmI3NGNhNDQ1MWNkIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Pengajuan Tiketing Jira</a></li>
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNGZjYzg4YWItNWIwZC00NzdlLTg5OGYtZTBmOWY3MjI0ZDRiIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Rekapitulasi PCS</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMWE4YTU2YzUtNTgyMy00Y2ZjLWIyOGYtMTNjMTZmNDU3NWI2IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Nominatif dan PCS 07/10/2025</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYmU1ZWUyNzAtMDE5Ny00NWUzLWI1ZTEtZGRhMmM0N2U0ODE3IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Nominatif dan PCS 29/10/2025</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNmIzZmNhZWItOWM0My00OTYyLThkODQtNDkwNDYyYzU0ZTYyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Nominatif dan PCS 27/11/2025</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiOTg5OTc2MTctMGVkMi00Njg4LTg4ZWEtYjUxYjg4YTRlMzE5IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Nominatif 27/11 dan PCS 01/12/2025</a></li> -->
-      </ul>
-      </div>
-      
-      <a href="https://www.canva.com/design/DAG0Vy5xQag/FjFfsictSmUZrZ0f4J79BA/edit" target="_blank" style=" margin:10px; color:white;">FLYER MONEV</a>
-
-      <div class="dropdown">
-      <a class="btn btn-outline-light dropdown-toggle" type="button" id="dropdownSaldo" data-bs-toggle="dropdown" aria-expanded="false" target="_blank" style=" margin:10px; color:white;">MEKAAR</a>
-        <ul class="dropdown-menu" aria-labelledby="dropdownSaldo">
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZjljZmFhZDQtZjVhYi00MDRjLTg1NmEtNWJkMGRkYjYyYTlmIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">DRTD</a></li> -->
-        <!-- <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMTZlMWQ2NjUtMTI1NS00YTIyLWFhMjQtZTY0OTlkNDc4MTVjIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Pencairan ODC</a></li> -->
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiYTBlNmU5MDktNTc4MC00NDVhLTlmYzItODUxMTgxYWQyNDYyIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Daily Closing</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMjBhZGVhNTctZTQ4OC00OTcwLTk3NTctODdjY2I3YTlhYWY5IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Hutang-Piutang</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiNWUyY2M1M2ItOGYzOC00Njc3LTg3ZTAtZmRhMDBkNzczOGY2IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Dana Mengendap</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiZGFhYWI0NGItZWMyNS00NGRiLWI2MjAtZWEzYWQ5M2RmMzVjIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Transaksi & Koreksi</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMzllODM0Y2ItYjYyZS00MDRjLWJlNzEtN2Q0ZTYzZGUxZWFlIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Dokumen FP4</a></li>
-        <li><a class="dropdown-item" href="https://app.powerbi.com/view?r=eyJrIjoiMmFhYzc1MmYtYTdmZi00NzI0LWEyYTctOTg2MjIxZDg5NjFhIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank">Reimbursement</a></li>
-        <!-- <li><a class="dropdown-item" href="" target="_blank">Juli 2025</a></li>
-        <li><a class="dropdown-item" href="" target="_blank">Agustus 2025</a></li>
-        <li><a class="dropdown-item" href="" target="_blank">September 2025</a></li> -->
-             </ul>
-      </div>
-
-      <a href="https://app.powerbi.com/view?r=eyJrIjoiZmZlMzk3ZWUtNjE0Yi00ZGNiLWI1MDctYjZmNjQzZGZlZDZmIiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank" style=" margin:10px; color:white;">Quality Control Analyst</a>
-    
-      
-      <!-- <a href="https://app.powerbi.com/view?r=eyJrIjoiZWUxZDFhOTAtOTQ4Ny00YWVlLWE1ZDUtNzZkMTc4NGM5OTY0IiwidCI6IjVlZGViNzljLWFmZTktNDQzMS1hMGQ1LTdhZDBjMTQ5YTQwMiIsImMiOjEwfQ%3D%3D" target="_blank" style=" margin:10px; color:white;">NOMOR PK</a> -->
-
-
+       <a href="Dashboard.html" target="_blank" style=" margin:10px; color:white;">Dashboard</a>
     </div>
   
 
@@ -176,7 +97,7 @@ function cekPassword(event) {
 <script>
     function checkPassword() {
       var input = document.getElementById("passwordInput").value;
-      var correct = "0924monev"; // Ganti password sesuai kebutuhan
+      var correct = "1126okp"; // Ganti password sesuai kebutuhan
       if (input === correct) {
         document.querySelector(".container").style.display = "none";
         document.getElementById("content").style.display = "block";
