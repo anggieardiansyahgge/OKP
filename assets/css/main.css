@@ -66,6 +66,20 @@ body {
   font-family: var(--default-font);
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-family: var(--default-font);
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
